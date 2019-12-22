@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "No Login Scenario",
+        "description": "",
+        "id": "no-login;no-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5885531000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Page",
+            "match": {
+              "location": "StepDefination.user_already_on_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5576400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of page is amazon.com",
+            "match": {
+              "location": "StepDefination.title_of_page_is_amazon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2315228699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"tablets\" in search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tablets",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefination.user_enter_data_in_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132231900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the title of the page is tabs",
+            "match": {
+              "location": "StepDefination.the_title_of_the_page_is_tabs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 673996499,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "No Login",
+    "description": "",
+    "id": "no-login",
+    "keyword": "Feature",
+    "uri": "C:/Users/vam20/eclipse-workspace/TD_ClaimsTest/src/main/java/Feature/login.feature"
+  }
+]
